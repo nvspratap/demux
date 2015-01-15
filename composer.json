@@ -1,8 +1,8 @@
 {
-	"name": "orchestra/platform",
-	"description": "Orchestra Platform",
-	"homepage": "http://orchestraplatform.com/docs/latest/",
-	"keywords": ["framework", "laravel", "orchestra-platform", "orchestral"],
+	"name": "mux/demux",
+	"description": "Mux Platform",
+	"homepage": "http://muxplatform.com",
+	"keywords": ["framework", "laravel", "orchestra-platform", "mux-platform"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
