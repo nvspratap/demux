@@ -1,4 +1,4 @@
-<?php namespace App\Console;
+<?php namespace Demux\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Orchestra\Foundation\Console\Kernel as ConsoleKernel;
@@ -11,7 +11,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        'App\Console\Commands\Inspire',
+        'Demux\Console\Commands\Inspire',
     ];
 
     /**

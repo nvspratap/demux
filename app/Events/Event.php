@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace Demux\Events;
 
 abstract class Event
 {

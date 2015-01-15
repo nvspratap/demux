@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace Demux\Commands;
 
 abstract class Command
 {

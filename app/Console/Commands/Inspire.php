@@ -1,4 +1,4 @@
-<?php namespace App\Console\Commands;
+<?php namespace Demux\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

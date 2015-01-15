@@ -164,12 +164,12 @@ return [
         /*
          * Application Service Providers...
          */
-        'App\Providers\AppServiceProvider',
-        'App\Providers\BusServiceProvider',
-        'App\Providers\ConfigServiceProvider',
-        'App\Providers\EventServiceProvider',
-        'App\Providers\ExtensionServiceProvider',
-        'App\Providers\RouteServiceProvider',
+        'Demux\Providers\AppServiceProvider',
+        'Demux\Providers\BusServiceProvider',
+        'Demux\Providers\ConfigServiceProvider',
+        'Demux\Providers\EventServiceProvider',
+        'Demux\Providers\ExtensionServiceProvider',
+        'Demux\Providers\RouteServiceProvider',
     ],
 
     /*

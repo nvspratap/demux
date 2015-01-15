@@ -1,7 +1,7 @@
-<?php namespace App\Http\Controllers\Auth;
+<?php namespace Demux\Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Demux\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Orchestra\Foundation\Processor\AuthenticateUser;
 use Orchestra\Foundation\Processor\Account\ProfileCreator;

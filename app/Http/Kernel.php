@@ -1,4 +1,4 @@
-<?php namespace App\Http;
+<?php namespace Demux\Http;
 
 use Orchestra\Foundation\Http\Kernel as HttpKernel;
 
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => 'App\Http\Middleware\Authenticate',
+        'auth' => 'Demux\Http\Middleware\Authenticate',
         'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
         'backend' => 'Orchestra\Foundation\Middleware\UseBackendTheme',
-        'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
+        'guest' => 'Demux\Http\Middleware\RedirectIfAuthenticated',
     ];
 }
